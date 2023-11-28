@@ -1,0 +1,44 @@
+/* Add your CSS styles to a separate CSS file or in a style tag in your component file */
+
+.etudiantTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .etudiantTable th, .etudiantTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .etudiantTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .etudiantTable tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #1976D2;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

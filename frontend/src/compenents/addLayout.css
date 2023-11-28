@@ -1,0 +1,39 @@
+/* Add your CSS styles to a separate CSS file or in a style tag in your component file */
+
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.container-fluid {
+  padding: 0 20px;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  padding: 10px 0;
+  display: block;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Style for the active NavLink */
+.nav-link.active {
+  color: #0056b3;
+  text-decoration: underline;
+}
